@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FormTest</string>
+
+    <string-array name="spinnertestowy">
+        <item>Dusk</item>
+        <item>Cracker</item>
+        <item>V2</item>
+        <item>V1</item>
+    </string-array>
+</resources>

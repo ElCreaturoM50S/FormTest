@@ -42,11 +42,13 @@
                 android:layout_margin="10dp"
                 />
             <EditText
+                android:id="@+id/duzo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Imie"
                 android:layout_margin="10dp"
-                />
+                android:autofillHints="duzo"
+                android:inputType="text" />
 
             <EditText
                 android:layout_width="match_parent"
@@ -130,8 +132,10 @@
     </ScrollView>
 
     <Button
-        android:layout_width="wrap_content"
+        android:id="@+id/buttonSend"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="BRUUH"
+        android:layout_margin="10dp"
         />
 </LinearLayout>
